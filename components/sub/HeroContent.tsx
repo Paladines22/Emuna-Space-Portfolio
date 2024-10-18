@@ -33,7 +33,7 @@ const HeroContent = () => {
       <motion.p
       variants={slideInFromLeft(0.8)}
       className="text-xl md:text-2xl text-gray-400 my-5 md:max-w-[900px]">
-          I'm a Front end Developer with experience in Website development. Check out my projects and skills.
+          I am a Front end Developer with experience in Website development. Check out my projects and skills.
       </motion.p>
 
       <motion.a

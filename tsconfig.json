@@ -12,6 +12,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    // otras opciones...
+    "allowImportingTsExtensions": true,
     "plugins": [
       {
         "name": "next"
@@ -20,6 +22,7 @@
     "paths": {
       "@/*": ["./*"]
     }
+    // otras opciones...
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

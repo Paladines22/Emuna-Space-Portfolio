@@ -1,5 +1,4 @@
 "use client" 
-// use cliente permite una UI interactiva que se renderiza previamnete en el servidor. Pueden usar estados, efectos y detectores de eventos. 
 
 import React, {useState, useRef, Suspense} from 'react';
 import {Canvas, useFrame} from '@react-three/fiber';
@@ -7,13 +6,15 @@ import {Points, PointMaterial} from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm';
 
 
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const StarBackground = (props: any) => {
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ref: any = useRef();
   const [sphere] = useState(()=> 
   random.inSphere(new Float32Array(5000), {radius:1.2})
   )
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   useFrame((state: any, delta: any)=> {
     ref.current.rotation.x -= delta/10;
     ref.current.rotation.y -= delta/15;

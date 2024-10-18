@@ -1,9 +1,11 @@
+/* eslint-disable-next-line padded-blocks */
 import type { Metadata } from "next";
 import {Inter} from 'next/font/google'
 import "./globals.css";
 import StarCanvas from '@/components/main/StarBackground.tsx'
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+
 
 const inter = Inter({subsets:['latin']})
 
