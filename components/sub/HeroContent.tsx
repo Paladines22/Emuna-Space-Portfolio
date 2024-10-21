@@ -18,7 +18,7 @@ const HeroContent = () => {
       variants={slideInFromTop}
       className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]">
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5"/>
-          <h1 className='Welcome-text text-lg  md:text-xl'>
+          <h1 className='Welcome-text text-sm  md:text-xl'>
             Frontend Developer Web Portfolio 
           </h1>
       </motion.div>
@@ -27,13 +27,13 @@ const HeroContent = () => {
       variants={slideInFromLeft(0.5)}
       className="flex flex-col gap-6 mt-6 text-5xl md:text-7xl text-bold text-white md:max-w-[900px] w-auto h-auto">
         Valentina Paladines 
-        <span className='  text-transparent font-bold text-4xl md:text-5xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' > Frontend Developer Web</span>
+        <span className='  text-transparent font-bold text-4xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' > Frontend Developer Web</span>
       </motion.div>
 
       <motion.p
       variants={slideInFromLeft(0.8)}
       className="text-xl md:text-2xl text-gray-400 my-5 md:max-w-[900px]">
-          I am a Front end Developer with experience in Website development. Check out my projects and skills.
+        Soy Desarrolladora Web Full Stack con un enfoque especial en el Front end. Combino mis habilidades técnicas con una sólida comprensión de UX/UI design para crear experiencias web atractivas y funcionales. Me apasiona transformar ideas en interfaces intuitivas y responsivas, optimizando tanto el rendimiento como la usabilidad. ¡Explora mi portafolio y descubre lo que puedo aportar a tu próximo proyecto!
       </motion.p>
 
       <motion.a
