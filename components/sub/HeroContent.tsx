@@ -16,7 +16,7 @@ const HeroContent = () => {
       <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
       <motion.div
       variants={slideInFromTop}
-      className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]">
+      className="Welcome-box py-[6px] px-[4px] border border-[#7042f88b] opacity-[0.9]">
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5"/>
           <h1 className='Welcome-text text-sm  md:text-xl'>
             Frontend Developer Web Portfolio 
@@ -33,7 +33,7 @@ const HeroContent = () => {
       <motion.p
       variants={slideInFromLeft(0.8)}
       className="text-xl md:text-2xl text-gray-400 my-5 md:max-w-[900px]">
-        Soy Desarrolladora Web Full Stack con un enfoque especial en el Front end. Combino mis habilidades técnicas con una sólida comprensión de UX/UI design para crear experiencias web atractivas y funcionales. Me apasiona transformar ideas en interfaces intuitivas y responsivas, optimizando tanto el rendimiento como la usabilidad. ¡Explora mi portafolio y descubre lo que puedo aportar a tu próximo proyecto!
+        Soy Desarrolladora Web Full Stack, especializada en el Front end. Combino mis habilidades técnicas con una sólida comprensión de UX/UI Design para crear experiencias web atractivas y funcionales. Me apasiona transformar ideas en interfaces intuitivas y responsivas, optimizando el rendimiento y la usabilidad. ¡Explora mi portafolio y descubre lo que puedo aportar a tu próximo proyecto!
       </motion.p>
 
       <motion.a
