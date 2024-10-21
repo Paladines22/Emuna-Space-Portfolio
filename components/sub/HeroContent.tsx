@@ -25,9 +25,9 @@ const HeroContent = () => {
 
       <motion.div
       variants={slideInFromLeft(0.5)}
-      className="flex flex-col gap-6 mt-6 text-5xl md:text-8xl text-bold text-white md:max-w-[900px] w-auto h-auto">
+      className="flex flex-col gap-6 mt-6 text-5xl md:text-7xl text-bold text-white md:max-w-[900px] w-auto h-auto">
         Valentina Paladines 
-        <span className='  text-transparent font-bold text-4xl md:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' > Frontend Developer Web</span>
+        <span className='  text-transparent font-bold text-4xl md:text-5xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500' > Frontend Developer Web</span>
       </motion.div>
 
       <motion.p
@@ -48,8 +48,8 @@ const HeroContent = () => {
           <Image 
           src="/mainIconsdark.svg"
           alt="work icons"
-          height={750}
-          width={750}
+          height={700}
+          width={700}
           />
       </motion.div>
   </motion.div>
